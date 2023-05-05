@@ -15,7 +15,7 @@
     <script>
 
 
-// ++
+        // ++
         // let namta = 5
         // let reject = 3
 
@@ -50,35 +50,161 @@
 
 
 
-// --
-        let namta = 5
-        let reject = 0
+        // --
+        // let namta = 5
+        // let reject = 0
 
-        if (reject > namta) {
-            console.log("Reject number is greater than namta")
-        } else {
-            for (let i = namta; i > 0; i--) {
-                if (i != reject) {
-                    console.log(i + " namta suru")
-                    for (let n = 1; n <= 10; n++) {
-                        if (n != 2) {
-                            console.log(i + " x " + n + " = " + i * n)
-                        }
+        // if (reject > namta) {
+        //     console.log("Reject number is greater than namta")
+        // } else {
+        //     for (let i = namta; i > 0; i--) {
+        //         if (i != reject) {
+        //             console.log(i + " namta suru")
+        //             for (let n = 1; n <= 10; n++) {
+        //                 if (n != 2) {
+        //                     console.log(i + " x " + n + " = " + i * n)
+        //                 }
 
-                    }
+        //             }
 
 
-                    if (i == 1) {
-                        console.log("sob namta ses")
-                    }
-                    if (i > namta) {
-                        console.log(i + " namta ses")
-                        console.log("=============================")
-                    }
+        //             if (i == 1) {
+        //                 console.log("sob namta ses")
+        //             }
+        //             if (i > namta) {
+        //                 console.log(i + " namta ses")
+        //                 console.log("=============================")
+        //             }
 
-                }
+        //         }
+        //     }
+        // }
+
+
+
+
+
+        // data type
+
+        // 1. string ->text--""
+        // 2. number -> 1,2,3,...
+        // 3. array ->
+        // 4. object ->
+        // 5. undifined ->
+        // 6. null ->
+        // 7. boolean ->
+
+
+        // =====================================
+        // let x = "sagor"
+
+        // console.log(typeof x)
+
+
+
+        // =====================================
+        // let x = ["a", "b", "c", "d"]
+        // console.log(x)
+        // console.log(x[1])
+
+
+
+        // =====================================
+        // let x = ["a","b","c","d","e","f"]
+        // console.log(x.length)
+        // for(let i=0; i<x.length;i++){
+        //     console.log(x[i])
+
+        // }
+
+
+
+
+        // ======================================
+        //     let x = [
+        //         {
+        //             "name":"shawon 1",
+        //             "age":"52",
+        //             "isMarried":"5 times",
+        //             "haveChildren":11
+        //         },{
+        //             "name":"shawon 2",
+        //             "age":"52",
+        //             "isMarried":"5 times",
+        //             "haveChildren":11
+        //         },{
+        //             "name":"shawon 3",
+        //             "age":"52",
+        //             "isMarried":"5 times",
+        //             "haveChildren":11
+        //         },{
+        //             "name":"shawon 4",
+        //             "age":"52",
+        //             "isMarried":"5 times",
+        //             "haveChildren":11
+        //         }
+        //     ]
+        // console.log(x[2].name)
+
+
+
+
+ // ====================================
+        // let x = [
+        //     {
+        //         "name": "shawon 1",
+        //         "age": "52",
+        //         "isMarried": "5 times",
+        //         "haveChildren": 11
+        //     }, {
+        //         "name": "shawon 2",
+        //         "age": "52",
+        //         "isMarried": "5 times",
+        //         "haveChildren": 11
+        //     }, {
+        //         "name": "shawon 3",
+        //         "age": "52",
+        //         "isMarried": "5 times",
+        //         "haveChildren": 11
+        //     }, {
+        //         "name": "shawon 4",
+        //         "age": "52",
+        //         "isMarried": "5 times",
+        //         "haveChildren": 11
+        //     }
+        // ]
+
+        // for(let i=0;i<x.length;i++){
+
+        //     console.log(x[i].name)
+        // }
+
+
+
+
+// =================================
+        let x = [
+            {
+                "namta": 5
+            }, {
+                "namta": 8
+            }, {
+                "namta": 3
+            }
+        ]
+
+        for(let i=0;i<x.length;i++){
+
+            for(let j=1;j<=10;j++){
+
+                console.log(x[i].namta + " x " + j + " = " + x[i].namta*j)
             }
         }
+
+
+
+
+
 
 
 
