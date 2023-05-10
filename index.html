@@ -50,35 +50,35 @@
 
 
 
-        // --
-        // let namta = 5
-        // let reject = 0
+        // ================================
+        let namta = 5
+        let reject = 0
 
-        // if (reject > namta) {
-        //     console.log("Reject number is greater than namta")
-        // } else {
-        //     for (let i = namta; i > 0; i--) {
-        //         if (i != reject) {
-        //             console.log(i + " namta suru")
-        //             for (let n = 1; n <= 10; n++) {
-        //                 if (n != 2) {
-        //                     console.log(i + " x " + n + " = " + i * n)
-        //                 }
+        if (reject > namta) {
+            console.log("Reject number is greater than namta")
+        } else {
+            for (let i = namta; i > 0; i--) {
+                if (i != reject) {
+                    console.log(i + " namta suru")
+                    for (let n = 1; n <= 10; n++) {
+                        if (n != 2) {
+                            console.log(i + " x " + n + " = " + i * n)
+                        }
 
-        //             }
+                    }
 
 
-        //             if (i == 1) {
-        //                 console.log("sob namta ses")
-        //             }
-        //             if (i > namta) {
-        //                 console.log(i + " namta ses")
-        //                 console.log("=============================")
-        //             }
+                    if (i == 1) {
+                        console.log("sob namta ses")
+                    }
+                    if (i > namta) {
+                        console.log(i + " namta ses")
+                        console.log("=============================")
+                    }
 
-        //         }
-        //     }
-        // }
+                }
+            }
+        }
 
 
 
@@ -149,7 +149,7 @@
 
 
 
- // ====================================
+        // ====================================
         // let x = [
         //     {
         //         "name": "shawon 1",
@@ -182,24 +182,119 @@
 
 
 
-// =================================
-        let x = [
-            {
-                "namta": 5
-            }, {
-                "namta": 8
-            }, {
-                "namta": 3
-            }
-        ]
+        // =================================
+        // let x = [
+        //     {
+        //         "namta": 5
+        //     }, {
+        //         "namta": 8
+        //     }, {
+        //         "namta": 3
+        //     }
+        // ]
 
-        for(let i=0;i<x.length;i++){
+        // for(let i=0;i<x.length;i++){
 
-            for(let j=1;j<=10;j++){
+        //     for(let j=1;j<=10;j++){
 
-                console.log(x[i].namta + " x " + j + " = " + x[i].namta*j)
-            }
-        }
+        //         console.log(x[i].namta + " x " + j + " = " + x[i].namta*j)
+        //     }
+        // }
+
+
+
+        // ===================================
+        // let x = [
+        //     { "namta": "5" },
+        //     { "namta": "8" },
+        //     { "namta": "9" },
+        //     { "namta": "10" },
+        //     { "namta": "11" }
+        // ]
+
+        // let reject = "12"
+        // for (let n = 0; n < x.length; n++) {
+
+
+        //     if (x[n].namta > reject) {
+
+        //         console.log(x[n].namta)
+        //     }
+        //     // else {
+
+
+        //     //         console.log("reject number is greater than namta");
+
+
+
+        //     // }
+        // }
+
+
+
+
+        // ==================================================
+
+        // let x = [
+        //      { "namta": "5" },
+        //      { "namta": "8" },
+        //      { "namta": "9" },
+        //      { "namta": "10" },
+        //      { "namta": "11" }
+        // ]
+        // let reject = 20;
+        // for(let i=0; i<x.length; i++){
+        //     return i
+        // }
+        // let isBGreater = x[i].namta.every(function (value) {
+        //     return reject > value;
+        // });
+
+        // if (isBGreater) {
+        //     console.log("B is greater than at least one value in X");
+        // } else {
+
+        //     for (let n = 0; n < x.length; n++) {
+
+        //         if (reject != x[n]) {
+        //             console.log(x.namta)
+        //         }
+
+        //     }
+        // }
+
+
+        // ======================================================
+
+        // let x = [
+        //     { "namta": "5" },
+        //     { "namta": "8" },
+        //     { "namta": "9" },
+        //     { "namta": "10" },
+        //     { "namta": "11" }
+        // ]
+        // let reject = 8;
+        // let isBGreater = true;
+
+        // for (let key in x) {
+        //     if (x.hasOwnProperty(key) && reject <= x[key]) {
+        //         isBGreater = false;
+        //         break;
+        //     }
+        // }
+
+        // if (isBGreater) {
+        //     console.log("Reject is greater than all values in X");
+        // } else {
+        //     for (let n = 0; n < x.length; n++) {
+
+        //         if (reject != x[n].nmata) {
+        //             console.log(x[n].namta)
+        //         }
+
+        //     }
+        // }
+
 
 
 
